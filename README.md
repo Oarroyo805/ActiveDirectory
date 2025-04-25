@@ -37,21 +37,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
-![1](https://github.com/user-attachments/assets/ee82c25a-e517-43db-937b-280314f79c75)
+![1](https://github.com/user-attachments/assets/2a4b6bd9-6035-4805-8e3d-2f9064aaa437)
+
   
 </p>
 <p>
-Create a Resource group and name it Active-Directory-Lab
+  
+- Create a Resource group and name it "Active-Directory-Lab"
+  
 </p>
 <br />
 
 <p>
 
-![2](https://github.com/user-attachments/assets/6427abf1-9a99-4e72-aeb6-bab10378bfb8)
+![2](https://github.com/user-attachments/assets/8e3c8a7e-e728-43cf-b91f-9c796e5cdbde)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+- Create a new virtual network and name it "Active-Directory-Vnet"
+  
+- Make sure you put the virtual network in the right resource group (Active-Directory-Lab)
 </p>
 <br />
 
