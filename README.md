@@ -41,7 +41,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
 </p>
 <p>
-Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created.
+Create a Resource group and name it Active-Directory-Lab
 </p>
 <br />
 
