@@ -19,18 +19,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
--Create Resources
--Ensure Connectivity between the client and Domain Controller
--Install Active Directory
--Create an Admin and Normal User Account in AD
--Join Client-1 to your domain (mydomain.com)
--Setup Remote Desktop for non-administrative users on Client-1
--Create additional users and attempt to log into client-1 with one of the users
+- Create Resources
+
+- Ensure Connectivity between the client and Domain Controller
+
+- Install Active Directory
+
+- Create an Admin and Normal User Account in AD
+
+- Join Client-1 to your domain (mydomain.com)
+
+- Setup Remote Desktop for non-administrative users on Client-1
+
+- Create additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="![1](https://github.com/user-attachments/assets/8169d4c9-09c7-4262-9698-6a48a7d7692a)/>
+
+![1](https://github.com/user-attachments/assets/ee82c25a-e517-43db-937b-280314f79c75)
+
+![1also](https://github.com/user-attachments/assets/03ce088d-b42b-4fc8-af32-627b4a00ee37)
+
+  
 </p>
 <p>
 Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created.
