@@ -76,23 +76,41 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - For the size option choose anything that has at least 2 vcpus
 - Set username to : labuser
 - Set password to : Cyberlab123!
+- Next check the licensing box and click next on disk and then next for networking
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![4](https://github.com/user-attachments/assets/27f65c0a-4e40-4ae9-9235-ec23a0c4461b)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+  - Make sure the virtual network is on the vnet we created
+  - Leave the subnet to default
+  - Click review and create and create
+ 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![5](https://github.com/user-attachments/assets/193d2cf3-0b97-43f0-9da5-c7e991ed233c)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Now create the client VM and name it "client-1"
+- For the image use Windows 10 pro
+- Again for the size use anything that has at least 2 vcpus
+- For the username use : labuser
+- For the password use : Cyberlab123!
+
+  
+
+  
 </p>
 <br />
 
