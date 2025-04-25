@@ -58,14 +58,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create a new virtual network and name it "Active-Directory-Vnet"
   
 - Make sure you put the virtual network in the right resource group (Active-Directory-Lab)
+- After click review and create
+  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![3](https://github.com/user-attachments/assets/8c2d010f-8012-4a28-ba7e-8d11b323ef7f)
+
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Then create the Domain Controller VM (Windows Server 2022) and name it “DC-1”
+- Make sure for the image you choose " Windows Server 2022 Datacenter: Azure Edition"
+- For the size option choose anything that has at least 2 vcpus
+- Set username to : labuser
+- Set password to : Cyberlab123!
+
 </p>
 <br />
 
