@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create additional users and attempt to log into client-1 with one of the users
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Installation Steps</h2>
 
 <p>
 
