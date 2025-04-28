@@ -108,25 +108,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - For the username use : labuser
 - For the password use : Cyberlab123!
 
-  
-
-  
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![6](https://github.com/user-attachments/assets/bb49f3cb-61a0-4f3d-9fc7-a44f4b618212)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Now go back to the Virtual Machine you named "DC-1" and you are going to set Domain Controller’s NIC Private IP address to be static
+- In azure go to Virtual Machines and select DC-1 and go to its networking settings and then click on the Network Interface card to get into its settings and be able to change address to be static
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![7](https://github.com/user-attachments/assets/77e4a01b-dab6-4ae5-b5d9-769af55b11ad)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Click on ipconfig1 and edit IP configuration
+- Switch from Dynamic to Static and save it
+
 </p>
 <br />
 
