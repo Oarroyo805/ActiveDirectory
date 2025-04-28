@@ -275,10 +275,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![18](https://github.com/user-attachments/assets/5b352cc4-4f7f-4eee-81fe-14d840487669)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Now you are going to create a new employee named “Jane Doe” 
+- Go to _ADMINS and right click and select new and then user
+- Fill out first and last name "Jane Doe"
+- The username of “jane_admin” and password Cyberlab123!
+- uncheck "User must change password at next login"
+- Check the box "Password never expires" for the sake of this lab ONLY
+
 </p>
 <br />
 
