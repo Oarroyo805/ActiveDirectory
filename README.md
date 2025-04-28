@@ -137,26 +137,44 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![8](https://github.com/user-attachments/assets/33f7bdf8-4338-4870-be21-e4f0ae18750d)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- After we are going to login to the Domain Controller and disable the Windows Firewall (for testing connectivity)
+- Get DC-1 public's Ip address and remote in using Microsoft remote desktop and enter username and password you created
+- Username: labuser
+- Password: Cyberlab123!
+
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![9](https://github.com/user-attachments/assets/5321e233-1cac-474b-8c8f-8c82c53c2637)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Right click the start menu and select run and type wf.msc
+- Next click on windows defender firewall properties
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![10](https://github.com/user-attachments/assets/049b565b-1f92-447b-9711-4c5c99c07e0b)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Then under domain profile, turn off option on Firewall state
+- Go to next tab called private profile and turn off option on Firewall State
+- Last go on public profile tab and turn off option there as well and select apply at the bottom and click ok
+  
 </p>
 <br />
 
