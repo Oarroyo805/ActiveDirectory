@@ -292,26 +292,43 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![19](https://github.com/user-attachments/assets/d37a42d8-e8f0-449b-aa28-e6af6b39c551)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Next add jane_admin to the “Domain Admins” Security Group
+- In Active Directory Users and Computers go to _ADMINS and right click on Jane Doe and select properties then go to the tab that says member of and add and enter domain admins and select check names after and click ok
+
+![image](https://github.com/user-attachments/assets/3d4be82b-81ac-4ff1-8082-ce874fb8f223)
+
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/25eb3a5c-8ae0-4af6-833d-20d7b24b093f)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+- Now log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
+
+![image](https://github.com/user-attachments/assets/90e797fb-dd78-4076-a2eb-aa726f798915)
+
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/31ee378f-1210-449a-b0e7-348cc53d1943)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Reconnect to DC-1 using remote desktop (Get DC-1 public IP adress if you dont have it in Azure>Virtual Machines)
+- Next you are going to join Client-1 to your domain (mydomain.com)
 </p>
 <br />
 
