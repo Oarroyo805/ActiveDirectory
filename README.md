@@ -328,39 +328,64 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 
 - Reconnect to DC-1 using remote desktop (Get DC-1 public IP adress if you dont have it in Azure>Virtual Machines)
+
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/user-attachments/assets/fe0a52c3-8aeb-4552-b509-b0db7908d812)
+
+</p>
+<p>
+
 - Next you are going to join Client-1 to your domain (mydomain.com)
+- Get client-1 public IP adress and login using remote desktop
+- Once you login, right click the start menu and select system
+- Under Related Settings (right hand side) click on Rename this PC (Advanced)
+- Under the computer name tab click on change and then switch it from Workgroup to Domain
+- Enter mydomain.com in the domain and select ok after
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/0b1ebf84-815b-44d9-83fa-bb445fc1fdb8)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Next join the domain with "mydomain.com\jane_admin" credentials
+- Restart client-1 VM after
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/user-attachments/assets/21e19c8b-1c26-44fc-bf60-1fff35a7a4da)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- Go back to DC-1
+- Next create a new Organizational Unit named “_CLIENTS” and drag Client-1 into the Domain
+- Right click mydomain.com
+- Select New and then Organizational Unit
+- Name it _CLIENTS and select ok
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/54450142-0e6f-42e2-a3b3-fa0beb1f69be)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- After click on Computers and drag client-1 to _CLIENTS
+- When a message appears just click yes
+- Next right click on mydomain.com and select refresh to organize everything
 </p>
 <br />
 
